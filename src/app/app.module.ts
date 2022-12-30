@@ -8,6 +8,7 @@ import { StudententryComponent } from './studententry/studententry.component';
 import { ViewAllpaComponent } from './view-allpa/view-allpa.component';
 import { SearchComponent } from './search/search.component';
 import { DeleteComponent } from './delete/delete.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 const myRoute:Routes=[
   {
@@ -33,7 +34,8 @@ const myRoute:Routes=[
     StudententryComponent,
     ViewAllpaComponent,
     SearchComponent,
-    DeleteComponent
+    DeleteComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
