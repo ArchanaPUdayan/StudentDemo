@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { StudententryComponent } from './studententry/studententry.component';
 import { ViewAllpaComponent } from './view-allpa/view-allpa.component';
 import { SearchComponent } from './search/search.component';
+import { DeleteComponent } from './delete/delete.component';
 
 const myRoute:Routes=[
   {
@@ -20,6 +21,10 @@ const myRoute:Routes=[
   {
     path:"search",
     component: SearchComponent
+  },
+  {
+    path:"delete",
+    component:DeleteComponent
   }
 ]
 @NgModule({
@@ -27,7 +32,8 @@ const myRoute:Routes=[
     AppComponent,
     StudententryComponent,
     ViewAllpaComponent,
-    SearchComponent
+    SearchComponent,
+    DeleteComponent
   ],
   imports: [
     BrowserModule,
